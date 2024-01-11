@@ -1,0 +1,55 @@
+## General
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias l='ls -CF'
+alias ll='ls -alF'
+alias la='ls -A'
+
+## Commands
+alias rsync='rsync -avHPSAX'
+alias genpw='pwgen -s 15 1'
+alias largest='du -sh * | sort -rh | head -15'
+alias forget=' sed -i '$d' ~/.zsh_history &> /dev/null'
+
+## Vim
+alias vim='nvim'
+
+## Firefox
+alias firefox-dev='firefox -p dev &> /dev/null &'
+
+## Ruby
+alias be='bundle exec'
+alias bi='bundle config set path "vendor/bundle/"'
+alias rails='bin/rails'
+alias rake='bin/rake'
+alias rspec='bin/rspec'
+alias spring='bin/spring'
+alias foreman='bin/foreman'
+alias rubocop='bundle exec rubocop'
+alias webpack='bin/webpack-dev-server'
+alias hm='hivemind'
+alias open-unmerged='vim -p +/HEAD `git dfu`'
+
+## Rails
+alias rdbm='rake db:migrate'
+alias rdbr='rake db:rollback'
+alias rdbs='rake db:seed'
+alias rdbrc='rake db:drop db:create db:schema:load db:test:prepare'
+alias rdbmrd='rake db:migrate:redo'
+alias rdbrs='rake db:reset db:test:prepare'
+alias rdbtp='rake db:test:prepare'
+alias rdbms='rake db:migrate:status'
+alias rdbsd='rake db:schema:load'
+alias rdbstg='rake db:drop db:create db:schema:load db:migrate db:test:prepare && git rh'
+alias rdbsgun='rake db:seed:replant SEED_ONLY="Gunderson"'
+alias rps='rake parallel:create parallel:prepare parallel:spec[4]'
+
+## Dext
+alias tsh-jump='tsh login --proxy=teleport.prod.rbank-int.com:443 --request-roles=jump_production_monolith_jump && tsh kube login production-cluster && access monolith jump'
+alias tsh-staging='tsh login --proxy=teleport.staging.rbank-int.com:443 --request-roles=jump_staging_monolith_oneoff && tsh kube login staging-cluster && access monolith oneoff staging'
+alias tsh-prod='tsh login --proxy=teleport.prod.rbank-int.com:443 --request-roles=jump_production_monolith_oneoff && tsh kube login production-cluster && access monolith oneoff prod'
+alias tsh-demo='tsh login --proxy=teleport.staging.rbank-int.com:443 --request-roles=kubectl_demo_rw && tsh kube login demo-cluster'
+alias deinterlace-pngs='mogrify -interlace none *.png'

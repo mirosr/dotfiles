@@ -1,0 +1,76 @@
+{
+  "telemetry.telemetryLevel": "off",
+
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "onehalf-dark",
+  "workbench.iconTheme": "vs-seti",
+
+  "editor.fontFamily": "'Hack', 'Menlo', 'Consolas', monospace",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.rulers": [120],
+  "editor.wordWrapColumn": 120,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.renderFinalNewline": "off",
+  "editor.smoothScrolling": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": false,
+  "editor.inlineSuggest.enabled": true,
+
+  "terminal.integrated.fontFamily": "'Hack Nerd Font', 'Menlo', 'Consolas', monospace",
+  "terminal.integrated.fontSize": 14,
+
+  "search.smartCase": true,
+
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/log": true
+  },
+
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+
+  "[graphql]": {
+    "editor.formatOnSave": true
+  },
+
+  "[ruby]": {
+    "editor.defaultFormatter": "rubocop.vscode-rubocop",
+    "editor.formatOnSave": true
+  },
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+
+  "stylelint.validate": ["css", "scss"],
+  "scss.validate": false,
+  "css.validate": false
+}
