@@ -1,0 +1,48 @@
+# Prompt
+format = """
+$directory\
+$git_branch\
+$git_commit\
+$git_state$\
+git_metrics\
+$git_status
+$character
+"""
+right_format = """
+$status\
+$cmd_duration
+"""
+
+## Modules
+[directory]
+truncation_length = 5
+truncation_symbol = '.../'
+truncate_to_repo = false
+read_only = ' '
+
+[status]
+format = '$symbol [|](dimmed white) [$status](bold blue)'
+success_symbol = '[✓](bold green)'
+symbol = '[✗](bold red)'
+not_executable_symbol = '[✗](bold red)'
+not_found_symbol = '[✗](bold red)'
+sigint_symbol = '[✗](bold red)'
+signal_symbol = '[✗](bold red)'
+disabled = false
+
+[cmd_duration]
+format = '[ | ](dimmed white)[$duration]($style)'
+style = 'bold yellow'
+min_time = 0
+show_milliseconds = true
+
+[git_branch]
+format = '[$symbol$branch]($style) '
+
+[git_commit]
+format = '[\($hash\)]($style) '
+commit_hash_length = 10
+only_detached = false
+
+[git_metrics]
+disabled = false
