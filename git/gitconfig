@@ -3,7 +3,7 @@
   email = miro@mirosr.net
 
 [init]
-	defaultBranch = main
+  defaultBranch = main
 
 [core]
   excludesfile = ~/.gitignore
