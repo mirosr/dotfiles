@@ -38,6 +38,7 @@ show_milliseconds = true
 
 [git_branch]
 format = '[$symbol$branch]($style) '
+symbol = ' '
 
 [git_commit]
 format = '[ $hash]($style) '
