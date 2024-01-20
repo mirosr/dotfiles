@@ -40,7 +40,7 @@ show_milliseconds = true
 format = '[$symbol$branch]($style) '
 
 [git_commit]
-format = '[\($hash\)]($style) '
+format = '[ $hash]($style) '
 commit_hash_length = 10
 only_detached = false
 
