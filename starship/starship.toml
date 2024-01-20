@@ -46,3 +46,14 @@ only_detached = false
 
 [git_metrics]
 disabled = false
+
+[git_status]
+ahead = '⇡${count}'
+behind = '⇣${count}'
+conflicted = '=${count}'
+deleted = '✘${count}'
+modified = '!${count}'
+renamed = '»${count}'
+staged = '+${count}'
+stashed = '$${count}'
+untracked = '?${count}'
