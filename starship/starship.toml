@@ -21,7 +21,7 @@ truncate_to_repo = false
 read_only = ' '
 
 [status]
-format = '$symbol [|](dimmed white) [$status](bold blue)'
+format = '$symbol [$status](bold blue)'
 success_symbol = '[✓](bold green)'
 symbol = '[✗](bold red)'
 not_executable_symbol = '[✗](bold red)'
@@ -31,7 +31,7 @@ signal_symbol = '[✗](bold red)'
 disabled = false
 
 [cmd_duration]
-format = '[ | ](dimmed white)[$duration]($style)'
+format = ' [$duration]($style)'
 style = 'bold yellow'
 min_time = 0
 show_milliseconds = true
