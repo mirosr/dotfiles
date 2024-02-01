@@ -21,9 +21,6 @@ alias forget=' sed -i '$d' ~/.zsh_history &> /dev/null'
 ## Vim
 alias vim='nvim'
 
-## Firefox
-alias firefox-dev='firefox -p dev &> /dev/null &'
-
 ## Ruby
 alias be='bundle exec'
 alias bi='bundle config set path "vendor/bundle/"'
