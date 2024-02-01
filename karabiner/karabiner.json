@@ -106,7 +106,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'iterm.app'"
+                                        "shell_command": "open -n -a 'iterm.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -130,7 +130,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'firefox.app'"
+                                        "shell_command": "open -n -a 'firefox.app'"
                                     }
                                 ],
                                 "type": "basic"
@@ -154,7 +154,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -n -a 'firefox.app' --args -p dev"
+                                        "shell_command": "open -n -a 'firefox dev.app'"
                                     }
                                 ],
                                 "type": "basic"
