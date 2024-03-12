@@ -53,3 +53,4 @@
   rc   = rebase --continue
   ra   = rebase --abort
   st   = status --short --branch
+  sw   = switch
