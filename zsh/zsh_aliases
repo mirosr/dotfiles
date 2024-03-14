@@ -17,6 +17,7 @@ alias rsync='rsync -avHPSAX'
 alias genpw='pwgen -s 15 1'
 alias largest='du -sh * | sort -rh | head -15'
 alias forget=' sed -i '$d' ~/.zsh_history &> /dev/null'
+alias eh='vim + ~/.zsh_history'
 
 ## Vim
 alias vim='nvim'
