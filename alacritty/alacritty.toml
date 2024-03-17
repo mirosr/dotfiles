@@ -1,9 +1,9 @@
 [font]
 
-normal.family = "Hack Nerd Font Mono"
-bold.family = "Hack Nerd Font Mono"
-italic.family = "Hack Nerd Font Mono"
-bold_italic.family = "Hack Nerd Font Mono"
+normal.family      = 'Hack Nerd Font Mono'
+bold.family        = 'Hack Nerd Font Mono'
+italic.family      = 'Hack Nerd Font Mono'
+bold_italic.family = 'Hack Nerd Font Mono'
 
 size = 14
 
