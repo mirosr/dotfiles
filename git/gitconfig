@@ -33,6 +33,7 @@
   cb   = checkout -b
   cp   = cherry-pick
   df   = diff
+  dfm  = diff master..HEAD
   dfu  = diff --name-only --diff-filter=U
   dfls = diff --name-only
   ds   = diff --staged
