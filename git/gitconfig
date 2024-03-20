@@ -34,6 +34,7 @@
   cp     = cherry-pick
   df     = diff
   dfm    = diff master..HEAD
+  dfmls  = diff --name-only master..HEAD
   dfu    = diff --name-only --diff-filter=U
   dfls   = diff --name-only
   ds     = diff --staged
