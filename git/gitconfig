@@ -22,36 +22,36 @@
   autoSetupRemote = true
 
 [alias]
-  br   = branch
-  bd   = branch -D
-  bm   = branch -m
-  ci   = commit
-  ca   = commit --amend
-  cc   = commit -c ORIG_HEAD
-  cf   = commit --fixup
-  co   = checkout
-  cb   = checkout -b
-  cp   = cherry-pick
-  df   = diff
-  dfm  = diff master..HEAD
-  dfu  = diff --name-only --diff-filter=U
-  dfls = diff --name-only
-  ds   = diff --staged
-  fx   = rebase -i HEAD~2
-  lg   = log --graph --date=relative --pretty=tformat:'%C(auto)%h%Creset%C(auto)%d%Creset %s %C(green)(%an, %ad)%Creset'
-  lgdt = log --graph --date=format:'%Y-%m-%d %T' --pretty=tformat:'%C(auto)%h%Creset%C(auto)%d%Creset %s %C(green)(%an, %ad)%Creset'
-  ls   = show --pretty=format:'' --name-only
-  ms   = merge --squash
-  mnf  = merge --no-ff
-  pd   = push origin --delete
-  pf   = push --force-with-lease
-  pu   = push -u origin HEAD
-  rh   = reset --hard
-  rs   = reset --soft
-  rq   = reset --quiet
-  rb   = rebase
-  ri   = rebase -i
-  rc   = rebase --continue
-  ra   = rebase --abort
-  st   = status --short --branch
-  sw   = switch
+  br     = branch
+  bd     = branch -D
+  bm     = branch -m
+  ci     = commit
+  ca     = commit --amend
+  cc     = commit -c ORIG_HEAD
+  cf     = commit --fixup
+  co     = checkout
+  cb     = checkout -b
+  cp     = cherry-pick
+  df     = diff
+  dfm    = diff master..HEAD
+  dfu    = diff --name-only --diff-filter=U
+  dfls   = diff --name-only
+  ds     = diff --staged
+  fx     = rebase -i HEAD~2
+  lg     = log --graph --date=relative --pretty=tformat:'%C(auto)%h%Creset%C(auto)%d%Creset %s %C(green)(%an, %ad)%Creset'
+  lgdt   = log --graph --date=format:'%Y-%m-%d %T' --pretty=tformat:'%C(auto)%h%Creset%C(auto)%d%Creset %s %C(green)(%an, %ad)%Creset'
+  ls     = show --pretty=format:'' --name-only
+  ms     = merge --squash
+  mnf    = merge --no-ff
+  pd     = push origin --delete
+  pf     = push --force-with-lease
+  pu     = push -u origin HEAD
+  rh     = reset --hard
+  rs     = reset --soft
+  rq     = reset --quiet
+  rb     = rebase
+  ri     = rebase -i
+  rc     = rebase --continue
+  ra     = rebase --abort
+  st     = status --short --branch
+  sw     = switch
