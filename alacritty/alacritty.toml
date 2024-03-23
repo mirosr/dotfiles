@@ -37,6 +37,7 @@ white   = '#ffffff'
 [keyboard]
 
 bindings = [
+  { key = 'N',        mods = 'Control|Shift', action = 'SpawnNewInstance'  },
   { key = 'PageUp',   mods = 'Control'      , action = 'SelectPreviousTab' },
   { key = 'PageDown', mods = 'Control'      , action = 'SelectNextTab'     },
 ]
