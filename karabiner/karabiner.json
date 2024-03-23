@@ -106,7 +106,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -n -a 'iterm.app'"
+                                        "shell_command": "open -n -a 'alacritty.app'"
                                     }
                                 ],
                                 "type": "basic"
