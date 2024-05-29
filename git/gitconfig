@@ -47,12 +47,13 @@
   pd     = push origin --delete
   pf     = push --force-with-lease
   pu     = push -u origin HEAD
-  rh     = reset --hard
-  rs     = reset --soft
-  rq     = reset --quiet
+  rsh    = reset --hard
+  rss    = reset --soft
+  rsq    = reset --quiet
   rb     = rebase
   ri     = rebase -i
   rc     = rebase --continue
   ra     = rebase --abort
+  rs     = rebase --skip
   st     = status --short --branch
   sw     = switch
