@@ -55,7 +55,11 @@ opt.termguicolors = true
 
 -- Theme
 require('onedark').setup { style = 'darker' }
-require('onedark').load()
+-- require('onedark').load()
+require('everforest').setup({
+  background = 'hard'
+})
+require('everforest').load()
 
 -- Highlight current line
 opt.cursorline = true
