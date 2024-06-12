@@ -3,7 +3,7 @@
   "telemetry.telemetryLevel": "off",
 
   "workbench.startupEditor": "none",
-  "workbench.colorTheme": "onehalf-dark",
+  "workbench.colorTheme": "Everforest Dark",
   "workbench.iconTheme": "vs-seti",
 
   "editor.fontFamily": "'Hack', 'Menlo', 'Consolas', monospace",
@@ -15,7 +15,8 @@
   "editor.renderFinalNewline": "off",
   "editor.smoothScrolling": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
+    "source.fixAll.stylelint": "always"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": false,
@@ -32,7 +33,14 @@
     "**/.git": true,
     "**/.DS_Store": true,
     "**/node_modules": true,
-    "**/log": true
+    "**/log": true,
+    "**/data": true,
+    "**/data_test": true,
+    "**/public/assets": true,
+    "**/public/uploads": true,
+    "**/public/packs": true,
+    "**/public/packs-test": true,
+    "**/tmp": true
   },
 
   "[javascript]": {
@@ -73,5 +81,8 @@
 
   "stylelint.validate": ["css", "scss"],
   "scss.validate": false,
-  "css.validate": false
+  "css.validate": false,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.activityBar.location": "top",
+  "everforest.darkContrast": "hard"
 }
