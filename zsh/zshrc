@@ -16,6 +16,7 @@ setopt HIST_IGNORE_SPACE
 # Keep 1000000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000000
 SAVEHIST=1000000
+HISTFILE=~/.zsh_history
 
 # Show elapsed time if command took more than X seconds 
 REPORTTIME=3
@@ -32,7 +33,7 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 
 ## Variables
-export PATH="$HOME/bin:$PATH"
+export PATH="~/bin:$PATH"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
