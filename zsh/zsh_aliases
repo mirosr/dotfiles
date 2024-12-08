@@ -7,8 +7,6 @@ alias egrep='egrep --color=auto'
 alias l='ls -CF'
 alias ll='ls -alF'
 alias la='ls -A'
-alias lx='exa --icons -F -H --group-directories-first --git -1'
-alias lxl='lx -l'
 
 alias big='dua -x -t 4'
 
