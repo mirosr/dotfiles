@@ -1,0 +1,17 @@
+auto-update = off
+desktop-notifications = false
+
+theme = Everforest Dark - Hard
+font-family = Hack Nerd Font Mono
+font-size = 14
+font-thicken = true
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig
+adjust-cursor-thickness = 2
+window-padding-x = 5
+window-padding-y = 5
+
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+page_down=next_tab
