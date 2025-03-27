@@ -21,7 +21,7 @@ alias eh='vim + ~/.zsh_history'
 alias vim='nvim'
 
 ## Git
-alias open-unmerged='vim -p +/HEAD `git dfu`'
+alias open-unmerged='vim -p +/HEAD `git diff --name-only --diff-filter=U`'
 
 ## Ruby
 alias be='bundle exec'
@@ -47,7 +47,7 @@ alias rdbrs='rake db:reset db:test:prepare'
 alias rdbtp='rake db:test:prepare'
 
 ## Dext
-alias rdbstg='rake db:drop db:create db:schema:load db:migrate db:test:prepare && git rh'
+alias rdbstg='rake db:drop db:create db:schema:load db:migrate db:test:prepare && git reset --hard'
 alias rdbsgun='rake db:seed:replant SEED_ONLY="Gunderson"'
 alias rps='rake parallel:create parallel:prepare parallel:spec[4]'
 alias deinterlace-pngs='mogrify -interlace none *.png'
