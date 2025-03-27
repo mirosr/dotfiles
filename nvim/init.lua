@@ -478,7 +478,7 @@ local servers = {
     },
   },
   -- solargraph = {},
-  tsserver = {},
+  ts_ls = {},
   html = {},
   cssls = {},
   graphql = {},
