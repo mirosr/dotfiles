@@ -33,7 +33,13 @@ if [ -f ~/.zsh_aliases ]; then
 fi
 
 ## Variables
-export PATH="~/bin:$PATH"
+
+### Volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+### ~/bin
+export PATH="$HOME/bin:$PATH"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
