@@ -85,5 +85,6 @@
 
   "stylelint.validate": ["css", "scss"],
   "scss.validate": false,
-  "css.validate": false
+  "css.validate": false,
+  "security.workspace.trust.enabled": true
 }
