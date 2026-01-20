@@ -45,6 +45,8 @@ alias rdbsr='rake db:seed:replant'
 alias rdbrc='rake db:drop db:create db:schema:load db:test:prepare'
 alias rdbrs='rake db:reset db:test:prepare'
 alias rdbtp='rake db:test:prepare'
+alias rcg='rake codegen'
+alias rcgt='rake codegen:translations'
 
 ## Dext
 alias rdbstg='rake db:drop db:create db:schema:load db:migrate db:test:prepare && git reset --hard'
