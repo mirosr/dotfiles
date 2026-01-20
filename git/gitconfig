@@ -59,5 +59,7 @@
   ra     = rebase --abort
   rs     = rebase --skip
   rin    = rebase --interactive --no-autosquash
+  rt     = restore
+  rts    = restore --staged
   st     = status --short --branch
   sw     = switch
