@@ -1,5 +1,6 @@
 auto-update = off
 desktop-notifications = false
+clipboard-paste-protection = false
 
 theme = Everforest Dark Hard
 font-family = Hack Nerd Font Mono
