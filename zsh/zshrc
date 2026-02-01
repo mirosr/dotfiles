@@ -38,8 +38,14 @@ fi
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 
-### ~/bin
-export PATH="$HOME/bin:$PATH"
+### User private bin
+if [ -d "$HOME/.local/bin" ]; then
+  path=("$HOME/.local/bin" $path)
+fi
+if [ -d "$HOME/bin" ]; then
+  path=("$HOME/bin" $path)
+fi
+export PATH
 
 export EDITOR='nvim'
 export VISUAL='nvim'
