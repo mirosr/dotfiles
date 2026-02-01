@@ -16,7 +16,7 @@ setopt HIST_IGNORE_SPACE
 # Keep 1000000 lines of history within the shell and save it to ~/.zsh_history:
 HISTSIZE=1000000
 SAVEHIST=1000000
-HISTFILE=~/.zsh_history
+HISTFILE=$HOME/.zsh_history
 
 # Show elapsed time if command took more than X seconds 
 REPORTTIME=3
@@ -28,8 +28,8 @@ unsetopt NOMATCH
 setopt IGNORE_EOF
 
 ## Aliases
-if [ -f ~/.zsh_aliases ]; then
-  source ~/.zsh_aliases
+if [ -f "$HOME/.zsh_aliases" ]; then
+  source "$HOME/.zsh_aliases"
 fi
 
 ## Variables
