@@ -51,5 +51,5 @@ alias rcgt='rake codegen:translations'
 ## Dext
 alias rdbstg='rake db:drop db:create db:schema:load db:migrate db:test:prepare && git reset --hard'
 alias rdbsgun='rake db:seed:replant SEED_ONLY="Gunderson"'
-alias rps='rake parallel:create parallel:prepare parallel:spec[8]'
+alias rps='rake parallel:create[8] parallel:prepare[8] parallel:spec[8]'
 alias deinterlace-pngs='mogrify -interlace none *.png'
