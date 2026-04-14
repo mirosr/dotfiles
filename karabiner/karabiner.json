@@ -106,7 +106,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -n -a 'alacritty.app'"
+                                        "shell_command": "open -n -a 'ghostty.app'"
                                     }
                                 ],
                                 "type": "basic"
