@@ -106,7 +106,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -n -a 'ghostty.app'"
+                                        "shell_command": "open -n -a 'ghostty.app' --args --initial-command=''"
                                     }
                                 ],
                                 "type": "basic"
