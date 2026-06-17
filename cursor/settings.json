@@ -87,4 +87,5 @@
   "scss.validate": false,
   "css.validate": false,
   "security.workspace.trust.enabled": true,
+  "window.autoDetectColorScheme": false,
 }
