@@ -33,6 +33,7 @@ alias spring='bin/spring'
 alias foreman='bin/foreman'
 alias rubocop='bundle exec rubocop'
 alias webpack='bin/webpack-dev-server'
+alias wts='bin/worktrees'
 alias hm='hivemind'
 
 ## Rails
