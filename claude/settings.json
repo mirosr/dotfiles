@@ -47,13 +47,12 @@
       "Bash(sips:*)",
       "Bash(tee:*)",
       "Bash(xargs:*)",
-      "Edit(/Users/miroslav/work/**)",
-      "Read(//Users/miroslav/.claude/**)",
-      "Read(//Users/miroslav/.honeybadger-mcp-server.yaml)",
+      "Edit(~/work/**)",
       "Read(//private/tmp/**)",
       "Read(//tmp/**)",
-      "Read(//tmp/claude/**)",
-      "Read(/Users/miroslav/work/**)",
+      "Read(~/.claude/**)",
+      "Read(~/.honeybadger-mcp-server.yaml)",
+      "Read(~/work/**)",
       "Skill(agent-browser)",
       "Skill(monolith-console)",
       "Skill(pod-logs)",
@@ -70,7 +69,7 @@
   "model": "opus[1m]",
   "statusLine": {
     "type": "command",
-    "command": "/opt/homebrew/bin/jq -r 'def seg($l;$v;$y;$r): if $v>=$y then $l else (if $v>=$r then \"\\u001b[33m\" else \"\\u001b[31m\" end)+$l+\"\\u001b[0m\" end; .context_window.remaining_percentage as $ctx | .rate_limits.five_hour.used_percentage as $fu | .rate_limits.seven_day.used_percentage as $wu | [(if $ctx != null then seg(\"context: \\($ctx|round)%\";$ctx;31;11) else empty end), (if $fu != null then (100-$fu) as $f | seg(\"5h: \\($f|round)%\";$f;31;11) else empty end), (if $wu != null then (100-$wu) as $w | seg(\"week: \\($w|round)%\";$w;31;11) else empty end)] | join(\" · \") | if . == \"\" then \"\" else \"◴ \" + . end'"
+    "command": "jq -r 'def seg($l;$v;$y;$r): if $v>=$y then $l else (if $v>=$r then \"\\u001b[33m\" else \"\\u001b[31m\" end)+$l+\"\\u001b[0m\" end; .context_window.remaining_percentage as $ctx | .rate_limits.five_hour.used_percentage as $fu | .rate_limits.seven_day.used_percentage as $wu | [(if $ctx != null then seg(\"context: \\($ctx|round)%\";$ctx;31;11) else empty end), (if $fu != null then (100-$fu) as $f | seg(\"5h: \\($f|round)%\";$f;31;11) else empty end), (if $wu != null then (100-$wu) as $w | seg(\"week: \\($w|round)%\";$w;31;11) else empty end)] | join(\" · \") | if . == \"\" then \"\" else \"◴ \" + . end'"
   },
   "tui": "fullscreen",
   "theme": "dark",
