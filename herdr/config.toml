@@ -1,0 +1,7 @@
+onboarding = false
+
+[theme]
+name = "one-dark"
+
+[keys]
+prefix = "ctrl+a"
